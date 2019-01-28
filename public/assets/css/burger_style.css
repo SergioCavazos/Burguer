@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+button {
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  #boton {
+      margin-top: 20px;
+  }
+
+  #eaten {
+      color: darkgrey;
+  }
