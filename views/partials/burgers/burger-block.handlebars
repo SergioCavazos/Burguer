@@ -6,9 +6,15 @@
 </li> --}}
 
  <li class="list-group-item">
-        
-    {{burger_name}}
-        
-    <button type="button" class="btn btn-danger change-eaten" data-id="{{id}}" data-neweat="{{devoured}}"> Devour it!!!</button> 
+	<div class="row">
+		<div class="col-sm-3">
+			{{burger_name}}
+		</div>
+		<div class="col-sm-3"> 
+			<button type="button" class="btn btn-danger change-eaten" data-id="{{id}}" data-neweat="{{devoured}}"> Devour it!!!</button> 
+		</div>
+		
+	</div>  
+    
     
 </li>
